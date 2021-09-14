@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+
+main div.start-bsi{
+    text-align: center;
+  
+
+}
+main div.start-bsi h2{
+    text-align: center;
+    color: orange;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+}
+main div.start-bsi h3{
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 10px;
+}
+main div.start-bsi h4{
+    color: gray;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+main div.guitar-month-bsi{
+    font-family: 'Work Sans', sans-serif;
+    background-image: url(../bestselling/fon.webp);
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+}
+main div.about{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    
+}
+main div.about h2{
+    text-align: center;
+    color: orange;
+font-size: 12px;
+}
+main div.about h3{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 10px;
+}
+main div .about h4{
+    color: gray;
+    font-size: 18px;
+    font-weight: normal;
+    
+}
+main div .yellowguitar{
+    display: flex;
+width: 50%;
+align-items: center;
+justify-content: center;
+flex-grow: 1;
+
+}
