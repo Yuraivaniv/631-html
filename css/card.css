@@ -1,5 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
-main div .courusel-bsi h6 {
+h6{
 color:gray;
+font-family: 'Work Sans', sans-serif;
+font-size: 20px;
+text-align: left;
+}
+h5{
+    color:black;
+font-family: 'Work Sans', sans-serif;
+font-size: 16px;
+text-align: left;
+}
+main div .drum-corusel-bsi{
+    display: flex;
+    flex-direction: column;
+
+}
+main div .guitar-corusel-bsi{
+    display: flex;
+    flex-direction: column;
+
+}
+main div .saxophon-corusel-bsi{
+    display: flex;
+    flex-direction: column;
+
+}
+main div .tambourine-corusel-bsi{
+    display: flex;
+    flex-direction: column;
+
+}
+main div .redguitar-corusel-bsi{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#courusel-bsi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
