@@ -1,45 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
 
-h6{
+main #courusel-bsi h6{
 color:gray;
 font-family: 'Work Sans', sans-serif;
 font-size: 20px;
 text-align: left;
 }
-h5{
+main #courusel-bsi h5:hover{
+    color: orange;
+}
+main #courusel-bsi h5{
     color:black;
 font-family: 'Work Sans', sans-serif;
 font-size: 16px;
 text-align: left;
+
 }
 main div .drum-corusel-bsi{
     display: flex;
     flex-direction: column;
+   
+   
 
 }
 main div .guitar-corusel-bsi{
     display: flex;
     flex-direction: column;
-
+    
+   
 }
 main div .saxophon-corusel-bsi{
     display: flex;
     flex-direction: column;
-
+   
 }
 main div .tambourine-corusel-bsi{
     display: flex;
     flex-direction: column;
+    
+   
 
 }
 main div .redguitar-corusel-bsi{
     display: flex;
     flex-direction: column;
-
+    
+   
 }
+
 
 #courusel-bsi{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom:40px;
+}
+main div .button-card {
+  color: white;
+  background-color: #242424;
+  font-family: 'Work Sans', sans-serif;
+  width: 9em;
+  height: 3em;
+  border-radius: 10%;
+}
+main div .button-card:hover{
+    background-color: orange;
 }
